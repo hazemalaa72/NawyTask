@@ -7,9 +7,7 @@ public class OrderTest extends BaseTest {
     public void testCreateOrderForAppleMonitor() {
         HomePage homePage = new HomePage(page);
         ProductPage productPage = new ProductPage(page);
-
         homePage.navigateToProductPage();
         productPage.addAppleMonitorToCart();
-        // Continue with order process...
     }
 }

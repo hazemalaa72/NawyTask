@@ -7,7 +7,6 @@ public class LoginTest extends BaseTest {
     public void testUserCanLogin() {
         HomePage homePage = new HomePage(page);
         LoginPage loginPage = new LoginPage(page);
-
         homePage.navigateToLogin();
         loginPage.login("testuser@example.com", "password123");
     }
